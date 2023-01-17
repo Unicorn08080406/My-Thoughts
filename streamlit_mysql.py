@@ -38,7 +38,7 @@ with col20:
         port = st.text_input('Port', value=3306)
         user_name = st.text_input('User', value='root')
         user_pass = st.text_input('Password', value='root')
-        db_name = st.text_input('db', value='test')
+        db_name = st.text_input('db', value='stu_teacher')
 
     btn_flag = st.button('点击连接')
     if btn_flag:
